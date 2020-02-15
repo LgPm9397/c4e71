@@ -1,0 +1,3 @@
+1. conmit `` dánh vision fire 
+2. push -> d?y code len resset
+3. pull -> báo code t? sever v? máy
