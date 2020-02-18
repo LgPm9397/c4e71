@@ -23,3 +23,16 @@ let b = 10;
 let c = a + b;
 console.log(c);
 // - */
+
+
+
+let yourName1 = prompt("nhapten");
+let yourAge = prompt("nhap tuoi:");
+alert(yourName1);
+alert(yourAge)
+
+let yourYearOfBirth = prompt("nhap nam sinh");
+yourAge = 2020 - yourYearOfBirth;
+alert(yourAge);
+
+//nhap 2 so, tinh bon phep tinh 
