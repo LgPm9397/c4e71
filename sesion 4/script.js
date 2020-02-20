@@ -22,5 +22,13 @@ if ((year % 4 === 0 && year % 100 !== 0)
 }
 
 let Moth = parseInt(prompt("nhap vao 1 thang"));
-if(Moth === 1 || Moth === 3 || Moth ===)
+if(Moth === 1 || Moth === 3 || Moth === 5 || Moth === 7 || Moth === 8 || Moth === 10 || Moth === 12){
+    console.log(" co 31 ngay");
+}else if( Moth === 4 || Moth === 6 || Moth === 9 || Moth === 11 ){
+    console.log(" co 30 ngay ");
+}else if( Moth === 2){
+    console.log(" co 28,29 ngay");
+}else{
+    console.log(" nhap sai")
+}
 
